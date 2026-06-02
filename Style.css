@@ -1,0 +1,557 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 500px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 14%;
+}
+
+.container h1{
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.container p{
+    padding-bottom: 10px;
+    color: #4A5565;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.Dark{
+    background-color: black;
+    color: white;
+    padding: 28px 32px;
+    border: black solid 1px;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+
+.Light{
+    background-color: white;
+    color: black;
+    padding: 28px 32px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.image{
+    display: inline-block;
+    margin-left: 11%;
+    margin-top: 7%;
+}
+
+.image  img{
+    width: 400px;
+    border-radius: 26px;
+}
+
+.Why_Choose_Us{
+    width: auto;
+    height: auto;
+    margin-top: 11.75%;
+}
+
+.Why_Choose_Us  h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Why_Choose_Us  p{
+    text-align: center;
+    color: #4A5565;
+    font-size: 18px;
+}
+
+.cards{
+    text-align: center;
+    margin-top: 30px ;
+}
+
+.card{
+    display: inline-block;
+    width: 330px;
+    height: 220px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.card h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card p{
+    color: #4A5565;
+    font-size: 14px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.blue{
+    background-color: #DBEAFE;
+}
+
+.green{
+    background-color: #D0FAE5;
+}
+
+.purple{
+    background-color: #F3E8FF;
+}
+
+.blue  .icon{
+    background-color: #155DFC;
+}
+
+.green  .icon{
+    background-color: #009966;
+}
+
+.purple  .icon{
+    background-color: #9810FA;
+}
+
+.benefit{
+    margin: 35px auto ;
+}
+
+.image_2{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 12%;
+}
+
+.image_2 img{
+    width: 590px;
+    border-radius: 12px;
+}
+
+.content{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 450px;
+    vertical-align: top;
+    position: relative;
+    bottom: 22px;
+}
+
+.content  h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.features{
+    border-left: 4px solid black;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.features h3{
+    font-size: 20px;
+}
+
+.features p{
+    font-size: 14px;
+    color: #4A5565;
+}
+
+.testimonial{
+    margin: 55px 0;
+    background-color: #F9FAFB; 
+    text-align: center;  
+    padding-top: 40px;
+    height: 800px;
+}
+
+.testimonial h2{
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.testimonial p{
+    font-size: 18px;
+    color: #4A5565;
+}
+
+.card_2{
+    display: inline-block;
+    width: 350px;
+    height: 280px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 18px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.card_2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.card_2 p{
+    color: #4A5565;
+    font-size: 14px;
+}
+
+.card_2.blue{
+    background-color: #EFF6FF;
+}
+
+.card_2.green{
+    background-color: #ECFDF5;
+}
+
+.card_2.purple{
+    background-color: #FAF5FF;
+}
+
+.rates{
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    margin: auto;
+    background-color: #F1F5F9;
+    width: 80%;
+    border-radius: 26px;
+    border-width: 5px;
+    padding: 5px;
+}
+
+.active{
+    font-size: 25px;
+    display: inline-block;
+    padding: 20px 70px;
+}
+
+.trainers{
+    font-size: 25px;
+    display: inline-block;
+    padding: 20px 70px;
+}
+
+.classes{
+    font-size: 25px;
+    display: inline-block;
+    padding: 20px 70px;
+}
+
+.hours{
+    font-size: 25px;
+    display: inline-block;
+    padding: 20px 70px;
+}
+
+.form{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.form h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.form p{
+    color: #4A5565;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+fieldset{
+    margin: 80px auto;
+    width: 800px;
+    background-color: #F9FAFB;
+    height: 800px;
+    border: none;
+    border-radius: 12px;
+    position: relative;
+}
+
+.fname{
+    position: absolute;
+    left: 40px;
+    top: 55px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lname{
+    position: absolute;
+    right: 38.5%; 
+    top: 55px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.f-name{
+    position: absolute;
+    top: 10%;
+    left: 36px;
+    width: 350px;
+    height: 55px;
+    border-radius: 10px;
+    border-color: #4A5565;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #F9FAFB;
+}
+
+.l-name{
+    position: absolute;
+    top: 10%;
+    right: 60px;
+    width: 350px;
+    height: 55px;
+    border-radius: 10px;
+    border-color: #4A5565;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #F9FAFB;
+}
+
+.email{
+    position: absolute;
+    left: 40px;
+    top: 21%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mail{
+    position: absolute;
+    top: 25%;
+    left: 36px;
+    width: 725px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F9FAFB;
+    border: #4A5565  solid 1px;
+}
+
+.phone{
+    position: absolute;
+    top: 36%;
+    left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.number{
+    position: absolute;
+    top: 40%;
+    left: 36px;
+    width: 725px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: #4A5565;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #F9FAFB;
+}
+
+.membership{
+    position: absolute;
+    top: 51%;
+    left: 43px;
+    font-size: 18px;
+    font-weight: 500;  
+}
+
+.selection{
+    position: absolute;
+    top: 55%;
+    left: 38px;
+    width: 725px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: #4A5565;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #F9FAFB;
+}
+
+.message{
+    position: absolute;
+    top: 66%;
+    left: 42px;
+    font-size: 18px;
+    font-weight: 500;   
+}
+
+textarea{
+    position: absolute;
+    top: 70%;
+    left: 40px;
+    width: 725px;
+    height: 90px;
+    border-radius: 10px;
+    border-color: #4A5565;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #F9FAFB; 
+}
+
+.Dark2{
+    background-color: black;
+    color: white;
+    padding: 28px 32px;
+    border-radius: 10px;
+    border-color: #4A5565;
+    border-style: solid;
+    border-width: 1px;
+    width: 725px;
+    height: 55px;
+    position: absolute;
+    top: 85%;
+    right: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+fieldset p{
+    position: absolute;
+    top: 92%;
+    left: 23%;
+}
+
+.footer{
+    padding: 6% 10%;
+    height: 615px;
+    background-color: #101828;
+}
+
+.headers{
+    color: white;
+}
+
+.fit{
+    position: relative; 
+    display: inline-block;  
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.links{
+    position: relative;
+    display: inline-block; 
+    left: 450px; 
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.info{
+    position: absolute;
+    display: inline-block; 
+    padding-top: 20px;
+    right: 22.75%; 
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.headers p{
+    position: relative;
+    top: -8px;
+    width: 500px;
+    height: 35px;
+    color: #99A1AF;
+}
+
+.headers a{
+    position: relative;
+    top: 25px;
+    color: #99A1AF;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.headers{
+    width: 35%;
+}
+
+.headers_2{
+    width: 20%;
+}
+
+.headers_3{
+    width: 25%;
+}
+
+.headers_2 a{
+    color: #99A1AF;
+    position: relative;
+    left: 230%;
+    top: -90px;
+    display: block;
+    text-decoration: none;
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+
+.headers_3 h4{
+    position: relative;
+    left: 298%;
+    color: white;
+    font-size: 16px;
+    top: -288px;  /*fix*/
+}
+
+.headers_3 p{
+    color: #99A1AF;
+    font-size: 15px;
+    padding-top: 3px;
+    position: relative;
+    left: 298%;
+    top: -300px;  /*fix*/
+}
+
+hr{
+    position: relative;
+    top: -220px;  /*fix*/
+    border-color: #99A1AF;
+    border-width: 0.02px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #99A1AF;
+    padding-right: 20px;
+    font-size: 12px;
+    position: relative;
+    top: -245px;  /*fix*/
+    left: 860px;  /*fix*/
+}
+
+.copyrights{
+    color: #99A1AF;
+    font-size: 14px;
+    position: relative;
+    top: -210px;  /*fix*/
+}
